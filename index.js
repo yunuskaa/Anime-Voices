@@ -10,7 +10,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
     makeSound(buttonInnerHTML);
  
   });
-} 
+}
 
 //Detecting Keyboard Press
 document.addEventListener("keypress", function (event) {
@@ -41,9 +41,50 @@ function makeSound(key) {
         break;
   
     case "<span>s</span>":
-      var tom3 = new Audio('songs/oni-chan3.mp3');
-      tom3.play();
+      var tom2 = new Audio('songs/oni-chan2.mp3');
+      tom2.play();
       break;
+      case "s":
+        var tom2 = new Audio('songs/oni-chan2.mp3');
+        tom2.play();
+      break;
+    
+    case "<span>d</span>":
+      var tom2 = new Audio('songs/oni-chan2.mp3');
+      tom2.play();
+      break;
+      case "d":
+        var tom2 = new Audio('songs/oni-chan2.mp3');
+        tom2.play();
+    break;
+  
+    case "<span>j</span>":
+      var tom2 = new Audio('songs/oni-chan2.mp3');
+      tom2.play();
+      break;
+      case "j":
+        var tom2 = new Audio('songs/oni-chan2.mp3');
+        tom2.play();
+    break;
+      
+    case "<span>k</span>":
+      var tom2 = new Audio('songs/oni-chan2.mp3');
+      tom2.play();
+      break;
+      case "k":
+        var tom2 = new Audio('songs/oni-chan2.mp3');
+        tom2.play();
+    break;
+      
+    case "<span>L</span>":
+      var tom2 = new Audio('songs/oni-chan2.mp3');
+      tom2.play();
+      break;
+      case "L":
+        var tom2 = new Audio('songs/oni-chan2.mp3');
+        tom2.play();
+    break;
+    
     default: console.log(buttonInnerHtml);
       break;
   }
