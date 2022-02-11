@@ -24,15 +24,16 @@ h1 {
   width: 180px;
   font-size: 24px;
   color: white;
+  position: relative;
+  font-family: 'Rowdies', cursive;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
   border: 2px;
   border-radius: 25%;
   -webkit-border-radius: 25%;
   -moz-border-radius: 25%;
   -ms-border-radius: 25%;
   -o-border-radius: 25%;
-  position: relative;
-  font-family: 'Rowdies', cursive;
-  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+
 }
 
 .set button::before {
